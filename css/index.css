@@ -149,6 +149,9 @@ header .nav {
   display: flex;
   justify-content: space-evenly;
 }
+#Intro {
+  margin-bottom: 10%;
+}
 #Intro h2 {
   display: flex;
   justify-content: center;
@@ -156,6 +159,9 @@ header .nav {
 #Intro p {
   display: flex;
   justify-content: center;
+}
+#Skills {
+  margin-bottom: 10%;
 }
 #Skills h2 {
   display: flex;
@@ -170,6 +176,9 @@ header .nav {
   flex-direction: column;
   align-items: center;
   text-align: justify;
+}
+#History {
+  margin-bottom: 10%;
 }
 #History h2 {
   display: flex;
