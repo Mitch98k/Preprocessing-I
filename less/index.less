@@ -50,10 +50,75 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	max-width: 100%;
 }
 
 html, body {
-    height: 100%;
+	height: 100%;
 }
-
+@fontsize: 1.5rem;
+@backcolor: forestgreen;
+header{
+	margin-bottom: 5%;
+	h1{
+		display: flex;
+		justify-content: center;
+		font-size: 2.8rem;
+		margin-bottom: 2%;
+		background: @backcolor;
+	}// Ending bracket for h1
+	.nav{
+		display: flex;
+		justify-content: space-evenly;
+	}// Ending bracket for the nav
+}// Ending bracket for the header
+#Intro{
+	margin-bottom: 10%;
+	h2{
+		display: flex;
+		justify-content: center;
+	}// Ending bracket for h2
+	p{
+		display: flex;
+		justify-content: center;
+	}// Ending bracket for paragraph
+}// Ending bracket for the Intro section
+#Skills{
+	margin-bottom: 10%;
+	h2{
+		display: flex;
+		justify-content: center;
+	}
+	p{
+		display: flex;
+		justify-content: center;
+	}
+	ul{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: justify;
+	}
+}
+#History{
+	margin-bottom: 10%;
+	h2{
+		display: flex;
+		justify-content: center;
+	}
+	p{
+		display: flex;
+		justify-content: center;
+	}
+}
+#Contact{
+	h2{
+		display: flex;
+		justify-content: center;
+	}
+	p{
+		display: flex;
+		justify-content: center;
+	}
+}
